@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NeutronIndex Record v1",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "provider",
+    "gpu_model",
+    "region",
+    "price_per_hour_usd"
+  ],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provider": {
+      "type": "string",
+      "enum": [
+        "aws",
+        "azure",
+        "gcp",
+        "lambda",
+        "paperspace",
+        "coreweave",
+        "crusoe",
+        "runpod",
+        "vastai",
+        "nebius",
+        "vultr",
+        "hyperstack",
+        "digitalocean",
+        "scaleway",
+        "fluidstack",
+        "tensordock",
+        "oblivus",
+        "datacrunch",
+        "latitude",
+        "jarvislabs",
+        "massed_compute"
+      ]
+    },
+    "gpu_model": {
+      "type": "string"
+    },
+    "gpu_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "region": {
+      "type": "string"
+    },
+    "price_per_hour_usd": {
+      "type": "number"
+    },
+    "pricing_type": {
+      "type": "string",
+      "enum": [
+        "on_demand",
+        "spot",
+        "reserved",
+        "community",
+        "bid"
+      ]
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "vcpus": {
+      "type": "integer"
+    },
+    "ram_gb": {
+      "type": "number"
+    },
+    "vram_gb": {
+      "type": "number"
+    },
+    "interconnect": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "electricity_price_kwh": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "carbon_intensity_gco2_kwh": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "tdp_watts": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "energy_cost_per_hour_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "tco_per_hour_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "tco_per_pflop_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "carbon_per_hour_gco2": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "neutron_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Proprietary. Available in paid tier only."
+    }
+  }
+}

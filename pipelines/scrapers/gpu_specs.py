@@ -1,0 +1,128 @@
+# GPU Hardware Specifications Reference
+# Used for TDP and FLOPS calculations in the public pipeline
+# Source: Official vendor datasheets
+
+GPU_SPECS = {
+    "H100_SXM": {
+        "tdp_watts": 700,
+        "fp16_tflops": 1979,
+        "bf16_tflops": 1979,
+        "fp32_tflops": 989,
+        "vram_gb": 80,
+        "memory_bandwidth_gbps": 3350,
+        "interconnect": "nvlink",
+    },
+    "H100_PCIe": {
+        "tdp_watts": 350,
+        "fp16_tflops": 1513,
+        "bf16_tflops": 1513,
+        "fp32_tflops": 756,
+        "vram_gb": 80,
+        "memory_bandwidth_gbps": 2000,
+        "interconnect": "pcie",
+    },
+    "H200_SXM": {
+        "tdp_watts": 700,
+        "fp16_tflops": 1979,
+        "bf16_tflops": 1979,
+        "fp32_tflops": 989,
+        "vram_gb": 141,
+        "memory_bandwidth_gbps": 4800,
+        "interconnect": "nvlink",
+    },
+    "A100_SXM": {
+        "tdp_watts": 400,
+        "fp16_tflops": 624,
+        "bf16_tflops": 624,
+        "fp32_tflops": 312,
+        "vram_gb": 80,
+        "memory_bandwidth_gbps": 2039,
+        "interconnect": "nvlink",
+    },
+    "A100_PCIe": {
+        "tdp_watts": 300,
+        "fp16_tflops": 624,
+        "bf16_tflops": 624,
+        "fp32_tflops": 312,
+        "vram_gb": 80,
+        "memory_bandwidth_gbps": 2039,
+        "interconnect": "pcie",
+    },
+    "L40S": {
+        "tdp_watts": 350,
+        "fp16_tflops": 733,
+        "bf16_tflops": 733,
+        "fp32_tflops": 366,
+        "vram_gb": 48,
+        "memory_bandwidth_gbps": 864,
+        "interconnect": "pcie",
+    },
+    "A10G": {
+        "tdp_watts": 150,
+        "fp16_tflops": 125,
+        "bf16_tflops": 125,
+        "fp32_tflops": 62.5,
+        "vram_gb": 24,
+        "memory_bandwidth_gbps": 600,
+        "interconnect": "pcie",
+    },
+    "RTX_4090": {
+        "tdp_watts": 450,
+        "fp16_tflops": 330,
+        "bf16_tflops": 330,
+        "fp32_tflops": 165,
+        "vram_gb": 24,
+        "memory_bandwidth_gbps": 1008,
+        "interconnect": "pcie",
+    },
+    "RTX_6000_Ada": {
+        "tdp_watts": 300,
+        "fp16_tflops": 686,
+        "bf16_tflops": 686,
+        "fp32_tflops": 91.1,
+        "vram_gb": 48,
+        "memory_bandwidth_gbps": 960,
+        "interconnect": "pcie",
+    },
+    "B200": {
+        "tdp_watts": 1000,
+        "fp16_tflops": 4500,
+        "bf16_tflops": 4500,
+        "fp32_tflops": 2250,
+        "vram_gb": 192,
+        "memory_bandwidth_gbps": 8000,
+        "interconnect": "nvlink",
+    },
+    "GB200": {
+        "tdp_watts": 2700,
+        "fp16_tflops": 9000,
+        "bf16_tflops": 9000,
+        "fp32_tflops": 4500,
+        "vram_gb": 384,
+        "memory_bandwidth_gbps": 16000,
+        "interconnect": "nvlink",
+    },
+    "MI300X": {
+        "tdp_watts": 750,
+        "fp16_tflops": 1307,
+        "bf16_tflops": 1307,
+        "fp32_tflops": 653,
+        "vram_gb": 192,
+        "memory_bandwidth_gbps": 5300,
+        "interconnect": "infinity_fabric",
+    },
+}
+
+# PUE (Power Usage Effectiveness) estimates by provider
+PROVIDER_PUE = {
+    "aws": 1.135,
+    "azure": 1.18,
+    "gcp": 1.10,
+    "lambda": 1.25,
+    "coreweave": 1.20,
+    "paperspace": 1.30,
+    "runpod": 1.35,
+    "vastai": 1.50,   # community hardware, highly variable
+    "crusoe": 1.08,   # flare gas powered, very efficient
+    "default": 1.30,
+}
