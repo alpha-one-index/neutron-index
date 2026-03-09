@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: NeutronIndex
+message: >-
+  If you use this dataset or reference in your research,
+  please cite it using the metadata from this file.
+type: dataset
+authors:
+  - name: Alpha One Index
+    website: https://github.com/alpha-one-index
+repository-code: https://github.com/alpha-one-index/neutron-index
+url: https://github.com/alpha-one-index/neutron-index
+abstract: >-
+  Live multi-cloud AI compute pricing and true TCO index.
+  Hourly-updated GPU pricing, energy cost, carbon intensity,
+  and spot availability across 25+ cloud providers.
+  Includes regional electricity pricing, carbon emissions
+  data, and true cost per FLOP calculations.
+keywords:
+  - gpu-pricing
+  - tco
+  - total-cost-of-ownership
+  - cloud-compute
+  - energy-cost
+  - carbon-intensity
+  - ai-infrastructure
+  - spot-pricing
+  - multi-cloud
+  - electricity-pricing
+license: Apache-2.0
+version: 1.0.0
+date-released: '2026-03-09'
