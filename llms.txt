@@ -1,0 +1,45 @@
+# NeutronIndex
+# https://github.com/alpha-one-index/neutron-index
+# Maintained by Alpha One Index
+
+> Live multi-cloud AI compute pricing and true TCO index. GPU pricing, energy cost, carbon intensity, and spot availability across 25+ cloud providers. Updated hourly via automated pipelines.
+
+## Overview
+
+NeutronIndex is an open-core dataset and API covering:
+- True cost per FLOP for AI workloads across 25+ cloud providers
+- Regional electricity pricing ($/kWh by datacenter zone)
+- Carbon intensity (gCO2eq/kWh, Scope 2/3 aligned)
+- Spot vs on-demand vs reserved pricing with availability signals
+- TCO per FLOP, per token, per training run
+- Energy cost per GPU-hour by region
+
+## Key Facts
+
+- 25+ cloud providers tracked (AWS, GCP, Azure, Lambda, CoreWeave, RunPod, Vast.ai, Shadeform, and more)
+- Hourly automated pricing updates via GitHub Actions
+- Energy and carbon enrichment from Electricity Maps, WattTime, EIA, ENTSO-E
+- Exports in CSV, Parquet, and JSON API
+- Apache 2.0 (pipelines) + CC BY 4.0 (data)
+
+## Data Files
+
+- [Latest CSV](https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv): Full pricing + TCO dataset in CSV format
+- [Latest Parquet](https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.parquet): Full dataset in Parquet format
+- [Schema v1](https://github.com/alpha-one-index/neutron-index/blob/main/schemas/schema_v1.json): NeutronIndex data schema definition
+- [Methodology](https://github.com/alpha-one-index/neutron-index/blob/main/docs/methodology.md): Full methodology documentation
+
+## Schema Fields
+
+timestamp, provider, gpu_model, gpu_count, region, price_per_hour_usd, pricing_type, available, vcpus, ram_gb, vram_gb, interconnect, electricity_price_kwh, carbon_intensity_gco2_kwh, tdp_watts, energy_cost_per_hour_usd, tco_per_hour_usd, tco_per_pflop_usd, carbon_per_hour_gco2, neutron_score
+
+## Citation
+
+@misc{neutronindex2026,
+  title = {NeutronIndex},
+  author = {Alpha One Index},
+  year = {2026},
+  url = {https://github.com/alpha-one-index/neutron-index}
+}
+
+Last updated: 2026-03-09
