@@ -1,0 +1,49 @@
+{
+  "title": "NeutronIndex: Live Multi-Cloud AI Compute Pricing & True TCO Index",
+  "description": "Live multi-cloud AI compute pricing and true TCO index. Hourly-updated GPU pricing, energy cost, carbon intensity, and spot availability across 25+ cloud providers.",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Alpha One Index",
+      "affiliation": "Independent AI Infrastructure Research"
+    }
+  ],
+  "keywords": [
+    "gpu-pricing",
+    "tco",
+    "total-cost-of-ownership",
+    "cloud-compute",
+    "energy-cost",
+    "carbon-intensity",
+    "ai-infrastructure",
+    "spot-pricing",
+    "multi-cloud",
+    "electricity-pricing"
+  ],
+  "license": {
+    "id": "Apache-2.0"
+  },
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alpha-one-index/neutron-index",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/ai-infra-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/ai-red-teaming-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/alpha-one-index/ai-trism-index",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}
