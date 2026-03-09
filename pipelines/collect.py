@@ -43,8 +43,15 @@ async def collect():
         json.dump({"generated": ts, "count": len(all_records), "records": all_records}, f, indent=2)
 
     if all_records:
+        all_keys = []
+        seen = set()
+        for r in all_records:
+            for k in r.keys():
+                if k not in seen:
+                    all_keys.append(k)
+                    seen.add(k)
         with open("exports/latest.csv", "w", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=all_records[0].keys())
+            writer = csv.DictWriter(f, fieldnames=all_keys, extrasaction="ignore", restval="")
             writer.writeheader()
             writer.writerows(all_records)
 
