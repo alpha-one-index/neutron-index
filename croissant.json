@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "sc": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "sc:Dataset",
+  "name": "NeutronIndex",
+  "description": "Live multi-cloud AI compute pricing and true TCO index. Hourly-updated GPU pricing, energy cost, carbon intensity, and spot availability across 25+ cloud providers. Includes regional electricity pricing, carbon emissions data, and true cost per FLOP calculations.",
+  "url": "https://github.com/alpha-one-index/neutron-index",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-09",
+  "dateModified": "2026-03-09",
+  "datePublished": "2026-03-09",
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "GPU pricing",
+    "cloud compute",
+    "TCO",
+    "total cost of ownership",
+    "energy cost",
+    "carbon intensity",
+    "AI infrastructure",
+    "spot pricing",
+    "electricity pricing",
+    "multi-cloud"
+  ],
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "citation": "Alpha One Index. (2026). NeutronIndex. https://github.com/alpha-one-index/neutron-index",
+  "rai:dataCollection": "All pricing data sourced from official cloud provider APIs (Shadeform, RunPod, Vast.ai, AWS, Azure, GCP). Energy data from Electricity Maps, WattTime, EIA, and ENTSO-E. No user-generated content.",
+  "rai:dataCollectionType": "Automated API Collection",
+  "rai:personalSensitiveInformation": "none",
+  "rai:dataBiases": "Provider coverage weighted toward US regions. Spot pricing volatility may not capture all intraday fluctuations. Carbon intensity data resolution varies by grid zone.",
+  "rai:dataLimitations": [
+    "Spot pricing snapshots taken hourly may miss intraday volatility",
+    "Carbon intensity data may lag by up to 1 hour",
+    "Not all providers expose all regions via API",
+    "TDP-based energy estimates may differ from actual consumption"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-csv",
+      "name": "NeutronIndex Latest CSV",
+      "description": "Full pricing, TCO, energy, and carbon dataset in CSV format, updated hourly",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "latest-parquet",
+      "name": "NeutronIndex Latest Parquet",
+      "description": "Full dataset in Apache Parquet format for efficient analytics",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.parquet",
+      "encodingFormat": "application/x-parquet",
+      "sha256": "dynamic"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "readme-md",
+      "name": "Documentation",
+      "description": "Primary dataset documentation with schema, methodology, and usage instructions",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/README.md",
+      "encodingFormat": "text/markdown"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "compute_pricing_tco",
+      "description": "Multi-cloud GPU pricing with true TCO including energy and carbon costs",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "name": "provider",
+          "description": "Cloud provider name",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "provider" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "gpu_model",
+          "description": "GPU model (e.g., H100_SXM, A100_80GB)",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "gpu_model" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "price_per_hour_usd",
+          "description": "Raw GPU price per hour in USD",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "price_per_hour_usd" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "tco_per_hour_usd",
+          "description": "True total cost of ownership per hour including energy costs",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "tco_per_hour_usd" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "carbon_per_hour_gco2",
+          "description": "Carbon emissions per hour in grams CO2 equivalent",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "carbon_per_hour_gco2" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "electricity_price_kwh",
+          "description": "Regional electricity price in USD per kWh",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "electricity_price_kwh" }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "name": "region",
+          "description": "Cloud provider region identifier",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "latest-csv" },
+            "extract": { "column": "region" }
+          }
+        }
+      ]
+    }
+  ]
+}
