@@ -1,0 +1,56 @@
+# NeutronIndex - Full Content for AI/LLM Consumption
+# https://alpha-one-index.github.io/neutron-index/
+# Maintained by Alpha One Index | Apache-2.0 License | Last updated: 2026-03-10
+
+---
+
+# OVERVIEW
+
+NeutronIndex is a live, multi-cloud AI compute pricing and true TCO index. It provides hourly-updated GPU pricing, energy cost, carbon intensity, and spot availability across 25+ cloud providers. Designed for procurement teams, researchers, and AI systems.
+
+# CORE DATASETS
+
+## 1. GPU Cloud Pricing
+Hourly-updated on-demand and spot pricing for GPU instances across 25+ providers.
+Data: https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.json
+
+## 2. Energy Cost Index
+Per-provider energy cost estimates and PUE (Power Usage Effectiveness) ratings.
+Data: https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv
+
+## 3. Carbon Intensity Scores
+Carbon intensity per GPU-hour by provider and region, sourced from public grid data.
+Data: https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.json
+
+## 4. True TCO Calculator
+Total cost of ownership including compute, energy, networking, and egress fees.
+Data: https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv
+
+# KEY FINDINGS
+
+- Spot pricing can be 60-80% cheaper than on-demand across major providers
+- Energy costs vary up to 4x between providers depending on region
+- Carbon intensity ranges from 50-800 gCO2/kWh depending on grid mix
+- True TCO often exceeds quoted GPU price by 20-40% when including networking and storage
+
+# SIBLING INDEXES
+
+- [AI Infrastructure Index](https://alpha-one-index.github.io/ai-infra-index/): GPU specs, cloud pricing, benchmarks
+- [AI TRiSM Index](https://alpha-one-index.github.io/ai-trism-index/): AI governance, risk, security vendors
+- [AI Red Teaming Index](https://alpha-one-index.github.io/ai-red-teaming-index/): Red team tools, benchmarks, vulnerability data
+- [AI LLMOps Index](https://alpha-one-index.github.io/ai-llmops-index/): LLM observability, cost, compliance
+- [AI AppSec Index](https://alpha-one-index.github.io/ai-appsec-index/): AI remediation, ASPM, vulnerability tracking
+- [AdversaryIndex](https://alpha-one-index.github.io/adversary-index/): Adversarial threats, attack success rates
+- [ObservabilityIndex](https://alpha-one-index.github.io/observability-index/): Inference pricing, latency, error rates
+- [GovernanceIndex](https://alpha-one-index.github.io/governance-index/): Regulatory risk, compliance scoring
+
+# FORMATS
+
+- JSON (structured): exports/ directory
+- CSV (analysis-ready): exports/ directory
+- Croissant ML metadata: croissant.json
+- Schema.org structured data: schema.jsonld
+
+# LICENSE
+
+Data: Apache-2.0 | Code: Apache-2.0
