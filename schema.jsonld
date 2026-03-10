@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NeutronIndex",
+  "description": "Live multi-cloud AI compute pricing and true TCO index. Hourly-updated GPU pricing, energy cost, and carbon intensity across 25+ providers.",
+  "url": "https://alpha-one-index.github.io/neutron-index/",
+  "sameAs": "https://github.com/alpha-one-index/neutron-index",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv"
+    }
+  ],
+  "keywords": [
+    "GPU pricing",
+    "cloud compute TCO",
+    "energy cost",
+    "carbon intensity",
+    "spot pricing",
+    "multi-cloud",
+    "AI infrastructure"
+  ],
+  "datePublished": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "version": "1.0.0"
+}
