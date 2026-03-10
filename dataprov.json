@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dpv": "https://w3id.org/dpv#"
+  },
+  "@type": "Dataset",
+  "@id": "https://github.com/alpha-one-index/neutron-index",
+  "name": "NeutronIndex",
+  "alternateName": "neutron-index",
+  "description": "Live multi-cloud AI compute pricing and true TCO index. Hourly-updated GPU pricing, energy cost, and carbon intensity across 25+ providers.",
+  "version": "1.0.0",
+  "dateCreated": "2026-03-10",
+  "dateModified": "2026-03-10",
+  "datePublished": "2026-03-10",
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "url": "https://github.com/alpha-one-index/neutron-index",
+  "sameAs": "https://alpha-one-index.github.io/neutron-index/",
+  "identifier": "alpha-one-index/neutron-index",
+  "creator": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index",
+    "email": "alpha.one.hq@proton.me"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Alpha One Index",
+    "url": "https://github.com/alpha-one-index"
+  },
+  "keywords": [
+    "GPU pricing",
+    "cloud compute",
+    "TCO calculator",
+    "energy cost",
+    "carbon intensity",
+    "spot pricing",
+    "multi-cloud",
+    "AI infrastructure",
+    "cost optimization"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Cloud computing",
+      "sameAs": "https://www.wikidata.org/wiki/Q483639"
+    },
+    {
+      "@type": "Thing",
+      "name": "Graphics Processing Units",
+      "sameAs": "https://www.wikidata.org/wiki/Q183484"
+    },
+    {
+      "@type": "Thing",
+      "name": "Total cost of ownership",
+      "sameAs": "https://www.wikidata.org/wiki/Q1049020"
+    }
+  ],
+  "temporalCoverage": "2026/2026",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "NeutronIndex Latest JSON",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.json",
+      "encodingFormat": "application/json",
+      "description": "Full pricing and TCO dataset in JSON format, updated hourly"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "NeutronIndex Latest CSV",
+      "contentUrl": "https://raw.githubusercontent.com/alpha-one-index/neutron-index/main/exports/latest.csv",
+      "encodingFormat": "text/csv",
+      "description": "Full pricing and TCO dataset in CSV format, updated hourly"
+    }
+  ],
+  "provenance": {
+    "@type": "prov:Entity",
+    "prov:wasGeneratedBy": {
+      "@type": "prov:Activity",
+      "name": "NeutronIndex Data Collection",
+      "description": "Automated collection of cloud GPU pricing, energy costs, and carbon intensity from provider APIs and public sources",
+      "prov:startedAtTime": "2026-03-10",
+      "prov:used": [
+        {
+          "@type": "prov:Entity",
+          "name": "Cloud Provider Pricing APIs",
+          "description": "Direct pricing data from 25+ cloud GPU providers",
+          "collectionMethod": "automated",
+          "updateFrequency": "hourly",
+          "isFirstParty": true
+        },
+        {
+          "@type": "prov:Entity",
+          "name": "Electricity Maps / Grid Data",
+          "description": "Regional carbon intensity and grid mix data",
+          "collectionMethod": "automated",
+          "updateFrequency": "daily",
+          "isFirstParty": false
+        }
+      ]
+    }
+  },
+  "qualityControl": {
+    "automatedValidation": {
+      "checks": [
+        "JSON schema validation",
+        "Price range anomaly detection",
+        "Data freshness monitoring",
+        "Cross-provider consistency checks"
+      ],
+      "frequency": "on_commit_and_hourly"
+    }
+  },
+  "knownLimitations": [
+    "Spot pricing is highly volatile and snapshots may not reflect current rates",
+    "Energy cost estimates based on regional averages",
+    "Carbon intensity depends on grid mix data availability",
+    "Some providers have limited regional pricing data"
+  ],
+  "ethicsAndResponsibleUse": {
+    "personalData": "none",
+    "biasConsiderations": "Coverage weighted toward major cloud providers. Smaller regional providers may be underrepresented.",
+    "intendedBeneficiaries": "Engineers, procurement teams, researchers, AI systems needing cost optimization data"
+  },
+  "citation": {
+    "@type": "CreativeWork",
+    "name": "NeutronIndex",
+    "author": "Alpha One Index",
+    "datePublished": "2026",
+    "url": "https://github.com/alpha-one-index/neutron-index"
+  }
+}
