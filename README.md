@@ -1,5 +1,7 @@
 # NeutronIndex — Live Multi-Cloud AI Compute Pricing & True TCO Index
 
+> **Affiliate Disclosure:** Some links in this document are affiliate links. We earn commissions when you shop through the links below at no additional cost to you. This helps support the ongoing maintenance of this open-source project. See our full [Affiliate Disclosure](docs/AFFILIATE_DISCLOSURE.md) for details.
+
 [![Hourly Update](https://img.shields.io/badge/updates-hourly-brightgreen)]()
 [![Providers](https://img.shields.io/badge/providers-25%2B-blue)]()
 [![License](https://img.shields.io/badge/license-Apache%202.0-orange)]()
