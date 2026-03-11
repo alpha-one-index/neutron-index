@@ -23,8 +23,8 @@ Raw GPU pricing is only ~60% of true compute cost. NeutronIndex normalizes acros
 | Source | Data | Frequency |
 |--------|------|-----------|
 | Shadeform API | GPU pricing across 21+ providers | Hourly |
-| RunPod API | Community + secure cloud pricing | Hourly |
-| Vast.ai API | Machine-level offers + reliability | Hourly |
+| [RunPod API](https://get.runpod.io/rycwc72ktzn7) | Community + secure cloud pricing | Hourly 
+| [Vast.ai API](https://cloud.vast.ai/?ref_id=428013) | Machine-level offers + reliability | Hourly 
 | AWS/Azure/GCP | Direct instance pricing | Hourly |
 | Electricity Maps | Carbon intensity by zone | Hourly |
 | WattTime | Marginal emissions data | Hourly |
