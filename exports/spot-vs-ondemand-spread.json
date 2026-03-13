@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "dataset": "GPU Spot vs On-Demand Price Spread Index",
+    "generated": "2026-03-13T16:20:46.557152+00:00",
+    "description": "Proprietary analysis of spot-to-ondemand price ratios across GPU types and providers"
+  },
+  "spreads": [
+    {
+      "gpu": "A100_80GB",
+      "avg_spot_discount_pct": 62,
+      "volatility_24h": 8.3,
+      "availability_score": 7.1
+    },
+    {
+      "gpu": "H100_80GB",
+      "avg_spot_discount_pct": 45,
+      "volatility_24h": 12.7,
+      "availability_score": 4.2
+    },
+    {
+      "gpu": "A6000",
+      "avg_spot_discount_pct": 55,
+      "volatility_24h": 5.1,
+      "availability_score": 8.5
+    },
+    {
+      "gpu": "RTX_4090",
+      "avg_spot_discount_pct": 48,
+      "volatility_24h": 6.9,
+      "availability_score": 9.0
+    },
+    {
+      "gpu": "L40S",
+      "avg_spot_discount_pct": 38,
+      "volatility_24h": 15.2,
+      "availability_score": 3.8
+    }
+  ]
+}

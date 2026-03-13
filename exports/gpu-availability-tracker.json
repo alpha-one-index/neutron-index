@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "dataset": "Real-Time GPU Availability Tracker",
+    "generated": "2026-03-13T16:20:46.557152+00:00",
+    "description": "Cross-provider GPU availability monitoring with wait time estimates"
+  },
+  "availability": [
+    {
+      "gpu": "H100_80GB",
+      "providers_with_stock": 4,
+      "avg_wait_minutes": 12,
+      "trend": "tightening"
+    },
+    {
+      "gpu": "A100_80GB",
+      "providers_with_stock": 9,
+      "avg_wait_minutes": 2,
+      "trend": "loosening"
+    },
+    {
+      "gpu": "L40S",
+      "providers_with_stock": 6,
+      "avg_wait_minutes": 5,
+      "trend": "stable"
+    },
+    {
+      "gpu": "A6000",
+      "providers_with_stock": 11,
+      "avg_wait_minutes": 0,
+      "trend": "abundant"
+    },
+    {
+      "gpu": "RTX_4090",
+      "providers_with_stock": 8,
+      "avg_wait_minutes": 1,
+      "trend": "stable"
+    }
+  ]
+}
