@@ -360,7 +360,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -375,7 +376,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -390,7 +392,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -405,7 +408,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -420,7 +424,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -435,7 +440,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -450,7 +456,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -465,7 +472,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -480,7 +488,8 @@
       "ram_gb": 64,
       "vram_gb": 16,
       "interconnect": "pcie",
-      "shade_instance_type": "A16"
+      "shade_instance_type": "A16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1041,7 +1050,8 @@
       "ram_gb": 32,
       "vram_gb": 20,
       "interconnect": "pcie",
-      "shade_instance_type": "RTX4000Ada"
+      "shade_instance_type": "RTX4000Ada",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1504,7 +1514,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1519,7 +1530,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1534,7 +1546,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1549,7 +1562,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1564,7 +1578,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1579,7 +1594,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1594,7 +1610,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1609,7 +1626,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -1624,7 +1642,8 @@
       "ram_gb": 128,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x2"
+      "shade_instance_type": "A16x2",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -2798,7 +2817,8 @@
       "tco_per_pflop_usd": 2.203956,
       "carbon_intensity_gco2_kwh": null,
       "carbon_per_hour_gco2": null,
-      "electricity_price_kwh": 0.1
+      "electricity_price_kwh": 0.1,
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -2813,7 +2833,8 @@
       "ram_gb": 64,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "RTX6000Ada"
+      "shade_instance_type": "RTX6000Ada",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3380,7 +3401,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3395,7 +3417,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3410,7 +3433,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3425,7 +3449,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3440,7 +3465,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3455,7 +3481,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3470,7 +3497,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3485,7 +3513,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3500,7 +3529,8 @@
       "ram_gb": 120,
       "vram_gb": 48,
       "interconnect": "pcie",
-      "shade_instance_type": "A40"
+      "shade_instance_type": "A40",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3770,7 +3800,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3785,7 +3816,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3800,7 +3832,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3815,7 +3848,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3830,7 +3864,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3845,7 +3880,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3860,7 +3896,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3875,7 +3912,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -3890,7 +3928,8 @@
       "ram_gb": 256,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x4"
+      "shade_instance_type": "A16x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4670,7 +4709,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4685,7 +4725,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4700,7 +4741,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4715,7 +4757,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4730,7 +4773,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -4745,7 +4789,8 @@
       "ram_gb": 120,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "A100_80G"
+      "shade_instance_type": "A100_80G",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -5634,7 +5679,8 @@
       "ram_gb": 240,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "H100_sxm5"
+      "shade_instance_type": "H100_sxm5",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -5649,7 +5695,8 @@
       "ram_gb": 240,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "H100_sxm5"
+      "shade_instance_type": "H100_sxm5",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -5664,7 +5711,8 @@
       "ram_gb": 240,
       "vram_gb": 80,
       "interconnect": "pcie",
-      "shade_instance_type": "H100_sxm5"
+      "shade_instance_type": "H100_sxm5",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -5812,7 +5860,8 @@
       "ram_gb": 240,
       "vram_gb": 141,
       "interconnect": "pcie",
-      "shade_instance_type": "H200_sxm5"
+      "shade_instance_type": "H200_sxm5",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -5827,7 +5876,8 @@
       "ram_gb": 240,
       "vram_gb": 141,
       "interconnect": "pcie",
-      "shade_instance_type": "H200_sxm5"
+      "shade_instance_type": "H200_sxm5",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6262,7 +6312,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6277,7 +6328,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6292,7 +6344,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6307,7 +6360,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6322,7 +6376,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6337,7 +6392,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6352,7 +6408,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6367,7 +6424,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -6382,7 +6440,8 @@
       "ram_gb": 496,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x8"
+      "shade_instance_type": "A16x8",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8232,7 +8291,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8247,7 +8307,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8262,7 +8323,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8277,7 +8339,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8292,7 +8355,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8307,7 +8371,8 @@
       "ram_gb": 480,
       "vram_gb": 48,
       "interconnect": "nvlink",
-      "shade_instance_type": "A40x4"
+      "shade_instance_type": "A40x4",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8502,7 +8567,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8517,7 +8583,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8532,7 +8599,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8547,7 +8615,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8562,7 +8631,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8577,7 +8647,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8592,7 +8663,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8607,7 +8679,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -8622,7 +8695,8 @@
       "ram_gb": 960,
       "vram_gb": 16,
       "interconnect": "nvlink",
-      "shade_instance_type": "A16x16"
+      "shade_instance_type": "A16x16",
+      "affiliate_url": "https://www.vultr.com/?ref=9877855"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -10617,7 +10691,8 @@
       "ram_gb": 1920,
       "vram_gb": 80,
       "interconnect": "nvlink",
-      "shade_instance_type": "H100_sxm5x8"
+      "shade_instance_type": "H100_sxm5x8",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -10632,7 +10707,8 @@
       "ram_gb": 1920,
       "vram_gb": 80,
       "interconnect": "nvlink",
-      "shade_instance_type": "H100_sxm5x8"
+      "shade_instance_type": "H100_sxm5x8",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -10647,7 +10723,8 @@
       "ram_gb": 1920,
       "vram_gb": 80,
       "interconnect": "nvlink",
-      "shade_instance_type": "H100_sxm5x8"
+      "shade_instance_type": "H100_sxm5x8",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -10977,7 +11054,8 @@
       "ram_gb": 1920,
       "vram_gb": 141,
       "interconnect": "nvlink",
-      "shade_instance_type": "H200_sxm5x8_NVLINK"
+      "shade_instance_type": "H200_sxm5x8_NVLINK",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
@@ -10992,7 +11070,8 @@
       "ram_gb": 1920,
       "vram_gb": 141,
       "interconnect": "nvlink",
-      "shade_instance_type": "H200_sxm5x8_NVLINK"
+      "shade_instance_type": "H200_sxm5x8_NVLINK",
+      "affiliate_url": "https://www.kqzyfj.com/click-101701477-17192219"
     },
     {
       "timestamp": "2026-03-15T17:01:57.138145+00:00",
